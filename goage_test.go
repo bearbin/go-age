@@ -17,7 +17,7 @@ var AgeTestCandidates = []AgeTestCandidate{
 	{time.Date(2004, 6, 18, 0, 0, 0, 0, time.UTC), time.Date(2005, 5, 12, 0, 0, 0, 0, time.UTC), 0},
 }
 
-func TestPlayerAge(t *testing.T) {
+func TestAgeAt(t *testing.T) {
 	for _, candidate := range AgeTestCandidates {
 		gotAge := AgeAt(candidate.BirthDate, candidate.CheckingTime)
 		if gotAge != candidate.ExpectedAge {
