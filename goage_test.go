@@ -1,4 +1,4 @@
-package "go-age"
+package goage
 
 import (
 	"testing"
