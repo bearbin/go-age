@@ -1,5 +1,5 @@
-// Package goage allows for easy calculation of the age of an entity, provided with the date of birth of that entity.
-package goage
+// Package age allows for easy calculation of the age of an entity, provided with the date of birth of that entity.
+package age
 
 import "time"
 
